@@ -55,59 +55,73 @@
             // 
             // Skele
             // 
+            this.Skele.BackColor = System.Drawing.Color.White;
             this.Skele.Font = new System.Drawing.Font("Yu Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Skele.Location = new System.Drawing.Point(12, 88);
             this.Skele.Name = "Skele";
             this.Skele.Size = new System.Drawing.Size(110, 41);
             this.Skele.TabIndex = 2;
             this.Skele.Text = "Skele";
-            this.Skele.UseVisualStyleBackColor = true;
+            this.Skele.UseVisualStyleBackColor = false;
             this.Skele.Click += new System.EventHandler(this.Skele_Click);
+            this.Skele.MouseLeave += new System.EventHandler(this.Skele_MouseLeave);
             this.Skele.MouseHover += new System.EventHandler(this.Skele_MouseHover);
             // 
             // Archie
             // 
+            this.Archie.BackColor = System.Drawing.Color.White;
             this.Archie.Font = new System.Drawing.Font("Yu Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Archie.Location = new System.Drawing.Point(12, 151);
             this.Archie.Name = "Archie";
             this.Archie.Size = new System.Drawing.Size(110, 41);
             this.Archie.TabIndex = 3;
             this.Archie.Text = "Archie";
-            this.Archie.UseVisualStyleBackColor = true;
+            this.Archie.UseVisualStyleBackColor = false;
             this.Archie.Click += new System.EventHandler(this.Archie_Click);
+            this.Archie.MouseLeave += new System.EventHandler(this.Archie_MouseLeave);
+            this.Archie.MouseHover += new System.EventHandler(this.Archie_MouseHover);
             // 
             // Knight
             // 
+            this.Knight.BackColor = System.Drawing.Color.White;
             this.Knight.Font = new System.Drawing.Font("Yu Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Knight.Location = new System.Drawing.Point(12, 210);
             this.Knight.Name = "Knight";
             this.Knight.Size = new System.Drawing.Size(110, 41);
             this.Knight.TabIndex = 4;
             this.Knight.Text = "Knight";
-            this.Knight.UseVisualStyleBackColor = true;
+            this.Knight.UseVisualStyleBackColor = false;
             this.Knight.Click += new System.EventHandler(this.Knight_Click);
+            this.Knight.MouseLeave += new System.EventHandler(this.Knight_MouseLeave);
+            this.Knight.MouseHover += new System.EventHandler(this.Knight_MouseHover);
             // 
             // lilPekka
             // 
+            this.lilPekka.BackColor = System.Drawing.Color.White;
             this.lilPekka.Font = new System.Drawing.Font("Yu Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lilPekka.Location = new System.Drawing.Point(12, 272);
             this.lilPekka.Name = "lilPekka";
             this.lilPekka.Size = new System.Drawing.Size(110, 41);
             this.lilPekka.TabIndex = 5;
             this.lilPekka.Text = "lilPekka";
-            this.lilPekka.UseVisualStyleBackColor = true;
+            this.lilPekka.UseVisualStyleBackColor = false;
             this.lilPekka.Click += new System.EventHandler(this.lilPekka_Click);
+            this.lilPekka.MouseLeave += new System.EventHandler(this.lilPekka_MouseLeave);
+            this.lilPekka.MouseHover += new System.EventHandler(this.lilPekka_MouseHover);
             // 
             // Giant
             // 
+            this.Giant.BackColor = System.Drawing.Color.White;
             this.Giant.Font = new System.Drawing.Font("Yu Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Giant.Location = new System.Drawing.Point(12, 340);
             this.Giant.Name = "Giant";
             this.Giant.Size = new System.Drawing.Size(110, 41);
             this.Giant.TabIndex = 6;
             this.Giant.Text = "Giant";
-            this.Giant.UseVisualStyleBackColor = true;
+            this.Giant.UseVisualStyleBackColor = false;
             this.Giant.Click += new System.EventHandler(this.Giant_Click);
+            this.Giant.MouseLeave += new System.EventHandler(this.Giant_MouseLeave);
+            this.Giant.MouseHover += new System.EventHandler(this.Giant_MouseHover);
             // 
             // changeBox
             // 

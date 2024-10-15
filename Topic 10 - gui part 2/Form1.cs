@@ -54,7 +54,52 @@ namespace Topic_10___gui_part_2
 
         private void Skele_MouseHover(object sender, EventArgs e)
         {
-            this.Close();
+           Skele.BackColor = Color.Red;
+        }
+
+        private void Skele_MouseLeave(object sender, EventArgs e)
+        {
+            Skele.BackColor = Color.White;
+        }
+
+        private void Archie_MouseHover(object sender, EventArgs e)
+        {
+            Archie.BackColor = Color.Red;
+        }
+
+        private void Archie_MouseLeave(object sender, EventArgs e)
+        {
+            Archie.BackColor = Color.White;
+        }
+
+        private void Knight_MouseHover(object sender, EventArgs e)
+        {
+            Knight.BackColor = Color.Red;
+        }
+
+        private void Knight_MouseLeave(object sender, EventArgs e)
+        {
+            Knight.BackColor = Color.White;
+        }
+
+        private void lilPekka_MouseHover(object sender, EventArgs e)
+        {
+            lilPekka.BackColor = Color.Red;
+        }
+
+        private void lilPekka_MouseLeave(object sender, EventArgs e)
+        {
+            lilPekka.BackColor= Color.White;
+        }
+
+        private void Giant_MouseHover(object sender, EventArgs e)
+        {
+            Giant.BackColor = Color.Red;
+        }
+
+        private void Giant_MouseLeave(object sender, EventArgs e)
+        {
+            Giant.BackColor= Color.White;
         }
     }
 }
